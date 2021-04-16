@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			border: 1px solid #ddd;
+		}
+
+		th,
+		td {
+			text-align: left;
+			padding: 16px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<h2>Full-width Table</h2>
+	<p>Use width: 100% to create a full-width table:</p>
+
+	<div>
+		<table>
+			<tr>
+				<th>ID</th>
+				<th>TITLE</th>
+				<th>PRICE</th>
+				<th>DESCRIPTION</th>
+				<th>IMAGE</th>
+			</tr>
+			
+			<% for (let item of list) { %>
+				<tr>
+					<td><%= item.id %></td>
+					<td><%= item.title %></td>
+					<td><%= item.price %></td>
+					<td><%= item.description %></td>
+					<td><%= item.image %></td>
+				</tr>
+
+			<% } %>
+		</table>
+	</div>
+
+</body>
+
+</html>
