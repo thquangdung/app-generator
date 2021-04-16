@@ -1,5 +1,5 @@
 # create a new resository on the command line
-  [+] $ git init
+  + $ git init
   + //. : all file
   + $ git add [file] [.]
   + $ git commit -m 'message commit'
