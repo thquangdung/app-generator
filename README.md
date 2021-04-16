@@ -1,7 +1,7 @@
 # create a new resository on the command line
-  $ git init
-  //. : all file
-  $ git add [file] [.] /n
+  `$ git init`
+  `//. : all file`
+  $ git add [file] [.]
   $ git commit -m 'message commit'
   $ git remote add origin https://github.com/thquangdung/app-generator.git
   // push master local to origin
