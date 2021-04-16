@@ -1,4 +1,5 @@
 # create a new resository on the command line
+  -
   + $ git init
   + //. : all file
   + $ git add [file] [.]
